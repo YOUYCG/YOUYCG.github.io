@@ -1,0 +1,56 @@
+baseURL = "http://youycg.tk/"
+languageCode = "zh-Hans"
+defaultContentLanguage = "zh"
+title = "You 的博客"
+theme = "dream"
+
+copyright = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。'
+
+googleAnalytics = "UA-98295641-1"
+
+disqusShortname = "You"
+
+enableRobotsTXT = true
+
+hasCJKLanguage = true
+
+# https://gohugo.io/news/0.60.0-relnotes/
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "dracula"
+
+[params]
+  # background = "black"
+  backgroundImage = "/me/background.jpg"
+  linkColor = "seagreen"
+
+  author = "You"
+  description = "You 的生活记录～"
+  avatar = "/me/ycg.jpg"
+  motto = "你只顾一路狂奔，追风赶月莫停留，平荒尽处是春山"
+  categoriesLimitInHeader = 6
+  # headerBottomText = ""
+
+  rss = true
+
+  utterancesRepo = "YOUYCG.github.io"
+  
+  email = "youycgchenguang@gmail.com"
+  twitter = "YCGYOU"
+  github = "YOUYCG"
+  wechat = "YOUYCG"
+
+  siteStartYear = 2020
+
+  favicon = "/favicon.ico"
+
+  # options
+  showSummaryCoverInPost = true
+
+  # dark mode
+  darkLinkColor = "darkseagreen"
+  darkNav = true
+  dark404 = true
